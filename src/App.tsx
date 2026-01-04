@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 import type { Components } from "react-markdown";
 
 
-export default function MarkdownEditor(): JSX.Element {
+export default function MarkdownEditor() {
  const [markdown, setMarkdown] = useState<string>(
 "# Hello Markdown\n\nType **bold**, *italic*, or `code` here."
 );
